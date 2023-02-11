@@ -1,0 +1,2036 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)https://nimblehq.co/compass/project/lifecycle/starting-new-project/ -->
+<html lang="en" class="layout-default"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 2147483647;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+</style>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+
+
+<title>Starting a New Software Project | Compass by Nimble</title>
+<meta name="description" content="Starting a new project requires some preparation and setup work. This is what is needed.">
+
+<meta itemprop="name" content="Starting a New Software Project | Compass by Nimble">
+<meta itemprop="description" content="Starting a new project requires some preparation and setup work. This is what is needed.">
+<meta itemprop="image" content="">
+
+<meta property="og:title" content="Starting a New Software Project | Compass by Nimble">
+<meta property="og:description" content="Starting a new project requires some preparation and setup work. This is what is needed.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nimblehq.co/compass/project/lifecycle/starting-new-project/" data-proofer-ignore="">
+<meta property="og:image" content="https://nimblehq.co/public/compass/images/social/compass-social-banner.png" data-proofer-ignore="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nimble_hq">
+<meta name="twitter:url" content="https://nimblehq.co/compass/project/lifecycle/starting-new-project/" data-proofer-ignore="">
+<meta name="twitter:title" content="Starting a New Software Project | Compass by Nimble">
+<meta name="twitter:description" content="Starting a new project requires some preparation and setup work. This is what is needed.">
+<meta name="twitter:image" content="https://nimblehq.co/public/compass/images/social/compass-social-banner.png" data-proofer-ignore="">
+
+<meta name="apple-mobile-web-app-title" content="Compass - Nimble&#39;s Handbook">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#201547">
+
+<meta name="theme-color" content="#201547">
+
+<meta name="turbo-root" content="/compass/">
+
+<meta http-equiv="Page-Enter" content="RevealTrans(Duration=2.0,Transition=2)">
+<meta http-equiv="Page-Exit" content="RevealTrans(Duration=3.0,Transition=12)">
+<meta http-equiv="cleartype" content="on">
+
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="msapplication-TileImage" content="/public/compass/images/favicon/mstile-144x144.png">
+<meta name="msapplication-square70x70logo" content="/public/compass/images/favicon/mstile-70x70.png">
+<meta name="msapplication-square150x150logo" content="/public/compass/images/favicon/mstile-150x150.png">
+<meta name="msapplication-wide310x150logo" content="/public/compass/images/favicon/mstile-310x150.png">
+<meta name="msapplication-square310x310logo" content="/public/compass/images/favicon/mstile-310x310.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://nimblehq.co/public/compass/images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://nimblehq.co/public/compass/images/favicon/apple-icon-152x152.png">
+
+<link rel="icon" type="image/png" sizes="192x192" href="https://nimblehq.co/public/compass/images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nimblehq.co/public/compass/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://nimblehq.co/public/compass/images/favicon/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="https://nimblehq.co/public/compass/images/favicon/favicon.ico">
+
+<link rel="manifest" href="https://nimblehq.co/public/compass/manifest.json">
+
+<link rel="stylesheet" href="./Starting a New Software Project _ Compass by Nimble_files/application.css" type="text/css">
+
+<link rel="canonical" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/" data-proofer-ignore="">
+
+
+  
+  
+  <script type="text/javascript" async="" src="./Starting a New Software Project _ Compass by Nimble_files/js"></script><script async="" src="./Starting a New Software Project _ Compass by Nimble_files/gtm.js"></script><script src="./Starting a New Software Project _ Compass by Nimble_files/vendor.js" data-turbo-track="reload" defer=""></script>
+  <script src="./Starting a New Software Project _ Compass by Nimble_files/application.js" data-turbo-track="reload" defer=""></script>
+
+  
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KTM5Q5M');</script>
+<!-- End Google Tag Manager -->
+
+
+</head>
+
+
+
+<body class="project project__starting-a-new-software-project" data-new-gr-c-s-check-loaded="14.1096.0" data-gr-ext-installed="">
+<div hidden="">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-anchor" viewBox="0 0 32 32"><title>icon-anchor</title><path d="m24.207 18.518 4.178-4.178c3.048-3.048 3.048-8.007 0-11.054-3.048-3.048-8.006-3.048-11.054 0l-6.03 6.03c-3.047 3.047-3.047 8.006 0 11.053.45.45.943.832 1.464 1.15l3.228-3.229a3.52 3.52 0 0 1-1.676-.936 3.557 3.557 0 0 1 0-5.024l6.029-6.03a3.557 3.557 0 0 1 5.024 0 3.557 3.557 0 0 1 0 5.025l-1.77 1.772a9.577 9.577 0 0 1 .607 5.421Z" fill="currentColor"></path><path d="m7.464 13.152-4.178 4.179c-3.048 3.047-3.048 8.006 0 11.054 3.047 3.047 8.006 3.047 11.054 0l6.029-6.03c3.048-3.047 3.047-8.006 0-11.053a7.776 7.776 0 0 0-1.463-1.15l-3.228 3.229a3.524 3.524 0 0 1 1.676.935 3.557 3.557 0 0 1 0 5.025l-6.03 6.03a3.557 3.557 0 0 1-5.024 0 3.557 3.557 0 0 1 0-5.025l1.772-1.772a9.572 9.572 0 0 1-.608-5.422Z" fill="currentColor"></path></symbol><symbol id="icon-arrow-tail" viewBox="0 0 32 32"><title>icon-arrow-tail</title><path d="M26.66 17.468H1.56a1.559 1.559 0 0 1 0-3.117h25.089l-5.864-5.672a1.559 1.559 0 1 1 2.168-2.24l8.573 8.292c.623.602.635 1.597.027 2.214l-8.284 8.41a1.559 1.559 0 1 1-2.22-2.189l5.612-5.698Z" stroke="currentColor" stroke-width=".6" fill="currentColor" fill-rule="nonzero"></path></symbol><symbol fill="none" id="icon-arrow-up" viewBox="0 0 32 32"><title>icon-arrow-up</title><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M22.888 18.114a1.055 1.055 0 0 1-1.057-1.041l-.064-5.357L9.934 23.55a1.044 1.044 0 0 1-1.477-.006 1.044 1.044 0 0 1-.006-1.477L20.278 10.24l-5.462.066a1.056 1.056 0 0 1-1.066-1.031 1.033 1.033 0 0 1 1.021-1.056l7.987-.097c.58-.007 1.059.46 1.066 1.04l.095 7.906a1.032 1.032 0 0 1-1.031 1.047Z"></path></symbol><symbol fill="none" id="icon-chevron" viewBox="0 0 32 32"><title>icon-chevron</title><path fill-rule="evenodd" clip-rule="evenodd" d="M16 18.586 7.374 9.96 5.96 11.374 16 21.414l10.04-10.04-1.414-1.414L16 18.586Z" fill="currentColor"></path></symbol><symbol id="icon-close" viewBox="0 0 32 32"><title>icon-close</title><path d="m1 1 15 15m0 0 15 15M16 16 31 1M16 16 1 31" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd"></path></symbol><symbol fill="none" id="icon-design" viewBox="0 0 40 40"><title>icon-design</title><path d="M15.939 33.257c5.67-4.445 13.64-2.146 13.64-2.146L39.694 3.065c.306-.92 0-1.686-.613-2.299-.613-.46-1.38-.766-2.3-.46L8.89 10.421s2.299 7.97-1.992 13.64l9.042 9.196Z" fill="#CACAFF"></path><path d="M38.115.002 22.327 15.857l1.738 1.73L39.853 1.732 38.115.002Z" fill="#534ACC"></path><path d="M22.07 20.69a2.759 2.759 0 1 0 0-5.517 2.759 2.759 0 0 0 0 5.517Z" fill="#534ACC"></path><path d="M18.276 35.54 4.591 21.918.05 26.48l13.685 13.623 4.541-4.561Z" fill="#30219E"></path></symbol><symbol fill="none" id="icon-development" viewBox="0 0 40 40"><title>icon-development</title><path d="M39 5H1v29.857h38V5Z" fill="#CACAFF"></path><path d="M4.8 9.886a1.086 1.086 0 1 0 0-2.172 1.086 1.086 0 0 0 0 2.172Zm3.529 0a1.086 1.086 0 1 0 0-2.172 1.086 1.086 0 0 0 0 2.172Zm3.664 0a1.086 1.086 0 1 0 0-2.172 1.086 1.086 0 0 0 0 2.172Z" fill="#201547"></path><path d="M34.521 23.729h-5.157v3.8h5.157v-3.8Zm-7.871-7.465H3.714v3.8H26.65v-3.8Z" fill="#8383EA"></path><path d="M38.729 16.264h-8.415v3.8h8.415v-3.8Zm-25.922 7.465H3.714v3.8h9.093v-3.8Z" fill="#30219E"></path><path d="M25.564 23.729h-9.092v3.8h9.092v-3.8Z" fill="#534ACC"></path></symbol><symbol fill="none" id="icon-helpdesk" viewBox="0 0 32 32"><title>icon-helpdesk</title><path d="M16 0C7.178 0 0 7.177 0 16c0 8.822 7.178 16 16 16 8.823 0 16-7.178 16-16 0-8.823-7.177-16-16-16Zm0 29.432C8.595 29.432 2.57 23.406 2.57 16 2.57 8.594 8.595 2.569 16 2.569c7.406 0 13.43 6.025 13.43 13.431 0 7.406-6.024 13.432-13.43 13.432Zm-.254-8.275c-.57 0-1.057.202-1.46.604a1.99 1.99 0 0 0-.603 1.458c0 .57.201 1.057.604 1.46.402.402.889.603 1.459.603.57 0 1.057-.201 1.46-.603a1.99 1.99 0 0 0 .603-1.46 1.99 1.99 0 0 0-.603-1.458 1.992 1.992 0 0 0-1.46-.604Zm4.523-13.261a6.6 6.6 0 0 0-2.05-.89 9.563 9.563 0 0 0-2.35-.289c-.768 0-1.505.125-2.208.377a6.587 6.587 0 0 0-1.87 1.015c-.544.426-.98.92-1.305 1.48-.326.56-.49 1.15-.49 1.768 0 .502.163.883.49 1.143.326.259.707.389 1.142.389.401 0 .716-.084.941-.251.227-.168.415-.372.565-.615.151-.243.284-.506.402-.79.117-.285.271-.55.464-.792a2.41 2.41 0 0 1 .754-.614c.31-.168.731-.251 1.267-.251.753 0 1.343.188 1.77.565.426.376.64.908.64 1.593 0 .42-.109.787-.323 1.105a5.032 5.032 0 0 1-.813.917c-.326.292-.677.576-1.053.853a9.834 9.834 0 0 0-1.055.891 4.802 4.802 0 0 0-.815 1.042c-.218.377-.326.816-.326 1.318 0 .4.133.782.401 1.141.268.361.67.54 1.206.54.418 0 .732-.067.941-.2.209-.134.372-.305.49-.515.116-.21.213-.44.288-.69.075-.25.188-.486.339-.703.133-.201.339-.402.616-.603l.916-.665c.335-.242.683-.51 1.044-.803.36-.292.687-.615.98-.966a4.7 4.7 0 0 0 .715-1.18c.184-.436.277-.929.277-1.482 0-.887-.18-1.648-.541-2.283a4.533 4.533 0 0 0-1.45-1.555Z" fill="currentColor"></path></symbol><symbol fill="none" id="icon-info" viewBox="0 0 32 32"><title>icon-info</title><path d="M6 26.4h20v-20H6v20Z" fill="url(#a)"></path><defs><pattern id="a" patternContentUnits="objectBoundingBox" width="1" height="1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#b" transform="scale(.01563)"></use></pattern><image id="b" width="64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/png;base64,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"></image></defs></symbol><symbol id="icon-minus" viewBox="0 0 32 32"><title>icon-minus</title><path d="M9 16h14" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd"></path></symbol><symbol id="icon-notice" viewBox="0 0 32 32"><title>icon-notice</title><g fill="#1B79EA"><path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16Zm0-2.667c7.364 0 13.333-5.97 13.333-13.333 0-7.364-5.97-13.333-13.333-13.333C8.636 2.667 2.667 8.637 2.667 16c0 7.364 5.97 13.333 13.333 13.333Z"></path><g transform="translate(14.667 8)"><rect width="2.667" height="13.333" rx="1.333"></rect><circle cx="1.333" cy="16" r="1.333"></circle></g></g></symbol><symbol id="icon-plus" viewBox="0 0 32 32"><title>icon-plus</title><path d="M9 16h14m-7-7v14" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"></path></symbol><symbol fill="none" id="icon-product" viewBox="0 0 40 40"><title>icon-product</title><path d="M34.708 15.803c0-8.41-6.918-15.193-15.464-14.786C11.376 1.29 5 7.936 5 15.804c0 4.34 1.9 8.41 4.883 11.123 2.035 1.764 3.256 4.34 3.256 7.054v.407h13.565v-.407c0-2.713 1.221-5.29 3.256-7.19 2.849-2.713 4.748-6.647 4.748-10.988Z" fill="#CACAFF"></path><path d="M17.48 20.416h-4.205c-2.306 0-4.205-1.9-4.205-4.206 0-2.306 1.899-4.205 4.205-4.205s4.205 1.9 4.205 4.205v4.206Zm-4.205-5.833c-.95 0-1.764.814-1.764 1.763 0 .95.814 1.764 1.764 1.764h1.763v-1.764c0-1.085-.814-1.763-1.763-1.763Zm13.158 5.833h-4.205V16.21c0-2.306 1.899-4.205 4.205-4.205s4.205 1.9 4.205 4.205c0 2.307-1.899 4.206-4.205 4.206Zm-1.764-2.442h1.764c.95 0 1.764-.814 1.764-1.764 0-.95-.814-1.763-1.764-1.763-.95 0-1.764.814-1.764 1.764v1.763Z" fill="#534ACC"></path><path d="M23.45 36.151h-7.19l-1.357-18.177h9.903l-1.357 18.177Zm-4.884-2.441h2.577l1.085-13.294H17.48l1.086 13.294Z" fill="#534ACC"></path><path d="M26.704 33.71H13.14V39h13.565v-5.29Z" fill="#30219E"></path></symbol><symbol style="enable-background:new 0 0 500 500" id="icon-project" viewBox="0 0 500 500"><title>icon-project</title><path d="M426.2 71.9h3.4v.5h-3.4z" style="fill:#231f20"></path><path d="M313.5 73.6 261.8 138c11.8 1.3 23.6 4.4 35 9.6C351.1 172.4 376.1 235 355 290l30.8 78.7 88.2-7.8 3.3-6.9c57.5-125.6 2.3-274-123.2-331.5-29.8-13.7-61-21-91.9-22.5l51.3 73.6z" style="fill:#30219e"></path><path d="m65.8 283.9 81.7 12.1c-12.8-28.6-13.8-62.3.3-93 16.3-35.6 48.8-58.6 84.7-64.3l53.1-66.1L234.9.2C145.8 5.6 62.5 58.8 22.8 145.7-10.6 218.6-6 299.3 28.3 365.3l37.5-81.4z" style="fill:#cacaff"></path><path d="m371 392.6-30-76.7c-30.8 42.6-88.3 59-137.8 36.2-16.2-7.4-29.8-18.2-40.3-31.2l-83.8-12.4-36.9 80.3c24.9 37.3 60 68.4 103.8 88.4 114.8 52.6 248.6 10.9 314.6-92.6l-89.6 8z" style="fill:#534acc"></path></symbol><symbol id="icon-search-not-found" viewBox="0 0 32 32"><title>icon-search-not-found</title><g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke="currentColor" stroke-width="2"><path d="M22.224 21.938c4.463-4.463 4.463-11.699 0-16.162-4.463-4.463-11.7-4.463-16.162 0-4.464 4.463-4.464 11.7 0 16.162 4.463 4.463 11.699 4.463 16.162 0Zm0 0 8.081 8.082-8.08-8.082Z" stroke-linejoin="round"></path><path d="M28.429 1.592 2.165 27.856"></path></g></symbol><symbol id="icon-search" viewBox="0 0 32 32"><title>icon-search</title><path d="M22.076 22.076c4.592-4.593 4.592-12.039 0-16.632-4.593-4.592-12.039-4.592-16.632 0-4.592 4.593-4.592 12.04 0 16.632 4.593 4.592 12.04 4.592 16.632 0Zm.084.084L30 30l-7.84-7.84Z" stroke="currentColor" stroke-width="3" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></symbol><symbol fill="none" id="icon-team-navigation" viewBox="0 0 32 32"><title>icon-team-navigation</title><path d="M9.6 5C6.864 5 4.622 7.241 4.622 9.978c0 1.63.8 3.09 2.022 4C2.805 15.143 0 18.512 0 22.556v3.422a1.067 1.067 0 0 0 1.067 1.067h29.866A1.067 1.067 0 0 0 32 25.978v-3.411c0-4.044-2.805-7.42-6.644-8.59a4.994 4.994 0 0 0 2.022-4C27.378 7.242 25.137 5 22.4 5c-2.737 0-4.978 2.241-4.978 4.978 0 1.636.805 3.102 2.034 4.011a9.91 9.91 0 0 0-3.445 1.889 9.865 9.865 0 0 0-3.467-1.889 4.997 4.997 0 0 0 2.034-4.011C14.578 7.24 12.337 5 9.6 5Zm0 2.133a2.828 2.828 0 0 1 2.844 2.845A2.828 2.828 0 0 1 9.6 12.822a2.828 2.828 0 0 1-2.844-2.844A2.828 2.828 0 0 1 9.6 7.133Zm12.8 0a2.828 2.828 0 0 1 2.845 2.845 2.829 2.829 0 0 1-2.845 2.844 2.828 2.828 0 0 1-2.844-2.844A2.828 2.828 0 0 1 22.4 7.133ZM9.6 15.667c4.194 0 7.467 3.09 7.467 6.889v2.355H2.133v-2.355c0-3.798 3.273-6.89 7.467-6.89Zm12.8 0c4.194 0 7.467 3.102 7.467 6.9v2.344H19.2v-2.355c0-1.92-.645-3.69-1.722-5.145a7.714 7.714 0 0 1 4.922-1.744Z" fill="currentColor"></path></symbol><symbol fill="none" id="icon-team" viewBox="0 0 40 40"><title>icon-team</title><path d="M24.222 17.06c-3.518 0-6.474-2.956-6.474-6.475v-2.11c0-3.52 2.956-6.475 6.474-6.475 3.519 0 6.333 2.956 6.333 6.474v2.252a6.307 6.307 0 0 1-6.333 6.333ZM39 37.185H9.444V28.6c0-5.207 4.363-9.57 9.57-9.57H29.43c5.207 0 9.57 4.363 9.57 9.57v8.585Z" fill="#30219E"></path><path d="M15.778 17.06c-3.519 0-6.474-2.956-6.474-6.475v-2.11C9.304 4.954 12.259 2 15.778 2c3.518 0 6.474 2.956 6.474 6.474v2.252c0 3.518-2.956 6.333-6.474 6.333Zm14.778 20.125H1V28.6c0-5.207 4.363-9.57 9.57-9.57h10.415c5.208 0 9.57 4.363 9.57 9.57v8.585Z" fill="#8383EA"></path></symbol><symbol fill="none" id="icon-warning" viewBox="0 0 32 32"><title>icon-warning</title><path d="M6 22.4h20v-20H6v20Z" fill="url(#a)"></path><defs><pattern id="a" patternContentUnits="objectBoundingBox" width="1" height="1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#b" transform="scale(.01563)"></use></pattern><image id="b" width="64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/png;base64,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"></image></defs></symbol></svg>
+</div>
+
+<header class="app-header" data-controller="app-header">
+  <div class="app-header__brand">
+    <div class="app-header__logo-container">
+      <div class="logo app-header__logo">
+  <a href="https://nimblehq.co/compass/" class="logo__link link--unstyled">
+    <span class="sr-only">Compass by Nimble</span>
+  </a>
+</div>
+
+    </div>
+  </div>
+
+  <div class="app-header__search" data-controller="search" data-search-path-prefix="/compass" data-app-header-target="appSearch">
+    <form class="form-search app-header__search-form form" data-search-target="formSearch">
+      <div class="form-search__input-group form__input-group">
+        <span class="form-search__icon form__input-group-text">
+          <svg class="icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-search"></use>
+</svg>
+        </span>
+        <input type="text" id="searchInput" class="form-search__input form__control" placeholder="Search Compass" autocomplete="off" data-search-target="inputSearch" data-action="focus-&gt;search#onInputFocus blur-&gt;search#onInputBlur" required="">
+        <button type="button" class="form-search__button button" data-action="search#onButtonClick">
+          <svg class="icon form-search__button-icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-close"></use>
+</svg>
+        </button>
+      </div>
+      <output class="form-search__result app-header__search-result" for="searchInput">
+        <ul class="list-search-result" data-search-target="listResult"></ul>
+      </output>
+    </form>
+    <template id="searchResultItem" data-search-target="templateSearchResultItem"></template>
+    <template id="searchNoResult" data-search-target="templateSearchNoResult"></template>
+  </div>
+
+  <div class="app-header__link">
+    <a href="https://nimblehq.co/" class="link-company">
+  <span>nimblehq.co</span>
+  <svg class="icon link-company__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-arrow-tail"></use>
+</svg>
+</a>
+
+  </div>
+
+  <div class="app-header__action">
+    <button type="button" class="app-header__button-action app-header__button-action--search" data-app-header-target="buttonSearch" data-action="app-header#onSearchButtonClick">
+      <svg class="icon icon--md" viewBox="0 0 32 32">
+  <use xlink:href="#icon-search"></use>
+</svg>
+      <span class="sr-only">Toggle Search</span>
+    </button>
+    <button type="button" class="app-header__button-action app-header__button-action--navigation button-hamburger" data-app-header-target="buttonHamburger" data-action="app-header#onHamburgerButtonClick">
+      <i class="button-hamburger__icon"></i>
+      <span class="sr-only">Toggle Menu</span>
+    </button>
+  </div>
+</header>
+
+
+<div class="app-container">
+  <aside class="app-container__navigation">
+    <nav class="app-navigation" data-controller="app-navigation">
+  <div class="app-navigation__body">
+    <div class="app-navigation__container">
+      
+        
+
+<div class="app-navigation__category">
+  <div class="app-navigation__header-category" data-action="click-&gt;app-navigation#toggleGroupMenu">
+    <div class="app-navigation__title-category">
+      
+      <span class="app-navigation__title-text">Introduction</span>
+    </div>
+    <button type="button" class="app-navigation__toggle-category button-toggle button-toggle--chevron">
+      <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+    </button>
+  </div>
+
+  <div class="app-navigation__menu-category">
+  
+    <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/intro/change-management/" class="app-navigation__link">
+      Change Management
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/intro/contribute/" class="app-navigation__link">
+      Contribution Guidelines
+    </a>
+  </li>
+  
+  
+</ul>
+
+  
+  </div>
+</div>
+
+      
+        
+
+<div class="app-navigation__category">
+  <div class="app-navigation__header-category" data-action="click-&gt;app-navigation#toggleGroupMenu">
+    <div class="app-navigation__title-category">
+      
+      <span class="app-navigation__title-text">Company</span>
+    </div>
+    <button type="button" class="app-navigation__toggle-category button-toggle button-toggle--chevron">
+      <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+    </button>
+  </div>
+
+  <div class="app-navigation__menu-category">
+  
+    <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/company/ideology/" class="app-navigation__link">
+      Ideology
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/company/values/" class="app-navigation__link">
+      Values
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/company/brand-guidelines/" class="app-navigation__link">
+      Brand Guidelines
+    </a>
+  </li>
+  
+  
+</ul>
+
+  
+  </div>
+</div>
+
+      
+        
+
+<div class="app-navigation__category">
+  <div class="app-navigation__header-category" data-action="click-&gt;app-navigation#toggleGroupMenu">
+    <div class="app-navigation__title-category">
+      
+      <span class="app-navigation__title-text">Team</span>
+    </div>
+    <button type="button" class="app-navigation__toggle-category button-toggle button-toggle--chevron">
+      <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+    </button>
+  </div>
+
+  <div class="app-navigation__menu-category">
+  
+    
+    <div class="app-navigation__group">
+      <div class="app-navigation__header-group">General</div>
+      <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/team/roles/" class="app-navigation__link">
+        Roles
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/roles/developer/" class="app-navigation__link">
+          Developer
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/roles/team-lead/" class="app-navigation__link">
+          Team Lead
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/roles/engineering-lead/" class="app-navigation__link">
+          Engineering Lead
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/roles/technical-lead/" class="app-navigation__link">
+          Technical Lead
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/roles/technical-product-manager/" class="app-navigation__link">
+          Technical Product Manager
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/roles/lead-product-manager/" class="app-navigation__link">
+          Lead Product Manager
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/roles/lead-ux-ui-designer/" class="app-navigation__link">
+          Lead UX/UI Designer
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/roles/chapter-lead/" class="app-navigation__link">
+          Chapter Lead
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/team/organization/" class="app-navigation__link">
+        Organization
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/organization/guide-squads-roles/" class="app-navigation__link">
+          Guide to Squads' Roles
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/organization/squad-rotation/" class="app-navigation__link">
+          Squad Rotation
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/team/communication/" class="app-navigation__link">
+        Communication
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/communication/tools/" class="app-navigation__link">
+          Tools
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/communication/meetings/" class="app-navigation__link">
+          Meetings
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/team/security/" class="app-navigation__link">
+        Security
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/security/1password/" class="app-navigation__link">
+          1Password
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/team/feedback/" class="app-navigation__link">
+      Feedback
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/team/individual-growth/" class="app-navigation__link">
+      Individual Growth
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/team/way-of-working/" class="app-navigation__link">
+      Way of Working
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/team/common-ground/" class="app-navigation__link">
+      Common Ground
+    </a>
+  </li>
+  
+  
+</ul>
+
+    </div>
+    
+    <div class="app-navigation__group">
+      <div class="app-navigation__header-group">Areas</div>
+      <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/team/engineering/" class="app-navigation__link">
+        Engineering
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/engineering/roadmap/" class="app-navigation__link">
+          Roadmap
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/team/engineering/initiatives-planning/" class="app-navigation__link">
+          Initiatives Planning
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+</ul>
+
+    </div>
+    
+  
+  </div>
+</div>
+
+      
+        
+
+<div class="app-navigation__category">
+  <div class="app-navigation__header-category" data-action="click-&gt;app-navigation#toggleGroupMenu">
+    <div class="app-navigation__title-category">
+      
+      <span class="app-navigation__title-text">Design</span>
+    </div>
+    <button type="button" class="app-navigation__toggle-category button-toggle button-toggle--chevron">
+      <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+    </button>
+  </div>
+
+  <div class="app-navigation__menu-category">
+  
+    <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/design/process/" class="app-navigation__link">
+      Process
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/design/user-experience/" class="app-navigation__link">
+      User Experience
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/design/user-interface/" class="app-navigation__link">
+      User Interface
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/design/review/" class="app-navigation__link">
+      Design Review
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/design/presentation/" class="app-navigation__link">
+      Design Presentation
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/design/tools/" class="app-navigation__link">
+      Design Tools
+    </a>
+  </li>
+  
+  
+</ul>
+
+  
+  </div>
+</div>
+
+      
+        
+
+<div class="app-navigation__category">
+  <div class="app-navigation__header-category" data-action="click-&gt;app-navigation#toggleGroupMenu">
+    <div class="app-navigation__title-category">
+      
+      <span class="app-navigation__title-text">Product Management</span>
+    </div>
+    <button type="button" class="app-navigation__toggle-category button-toggle button-toggle--chevron">
+      <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+    </button>
+  </div>
+
+  <div class="app-navigation__menu-category">
+  
+    
+    <div class="app-navigation__group">
+      <div class="app-navigation__header-group">General</div>
+      <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/product/product-process-deviation/" class="app-navigation__link">
+      Process Deviation
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/product/product-stack/" class="app-navigation__link">
+      Product Stack
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/product/technical-documentation/" class="app-navigation__link">
+        Documentation
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/product/technical-documentation/feature-documentation/" class="app-navigation__link">
+          Feature Documentation
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/product/testing/" class="app-navigation__link">
+      Testing
+    </a>
+  </li>
+  
+  
+</ul>
+
+    </div>
+    
+    <div class="app-navigation__group">
+      <div class="app-navigation__header-group">Planning</div>
+      <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/product/planning/sprint/" class="app-navigation__link">
+      Sprint Planning
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/product/planning/estimation/" class="app-navigation__link">
+        Estimation
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/product/planning/estimation/user-story-estimation/" class="app-navigation__link">
+          User Story Estimation
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/product/planning/estimation/high-level-estimation/" class="app-navigation__link">
+          High-Level Estimation
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+</ul>
+
+    </div>
+    
+    <div class="app-navigation__group">
+      <div class="app-navigation__header-group">Backlog Management</div>
+      <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/product/backlog-management/organization/" class="app-navigation__link">
+        Backlog Organization
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/product/backlog-management/organization/shortcut-handbook/" class="app-navigation__link">
+          Shortcut Handbook
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/product/backlog-management/backlog-grooming/" class="app-navigation__link">
+      Backlog Grooming
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/product/backlog-management/user-stories/" class="app-navigation__link">
+        Writing User Stories
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/product/backlog-management/user-stories/features/" class="app-navigation__link">
+          User Stories/Features
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/product/backlog-management/user-stories/bugs/" class="app-navigation__link">
+          Bugs
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/product/backlog-management/user-stories/chores/" class="app-navigation__link">
+          Chores
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+</ul>
+
+    </div>
+    
+  
+  </div>
+</div>
+
+      
+        
+
+<div class="app-navigation__category app-navigation__category--expanded">
+  <div class="app-navigation__header-category" data-action="click-&gt;app-navigation#toggleGroupMenu">
+    <div class="app-navigation__title-category">
+      
+      <span class="app-navigation__title-text">Project Management</span>
+    </div>
+    <button type="button" class="app-navigation__toggle-category button-toggle button-toggle--chevron button-toggle--expanded">
+      <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+    </button>
+  </div>
+
+  <div class="app-navigation__menu-category">
+  
+    
+    <div class="app-navigation__group">
+      <div class="app-navigation__header-group">General</div>
+      <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/project/types/" class="app-navigation__link">
+      Project Types
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/project/stakeholders-management/" class="app-navigation__link">
+      Stakeholders Management
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/project/blockers/" class="app-navigation__link">
+      Project Blockers
+    </a>
+  </li>
+  
+  
+</ul>
+
+    </div>
+    
+    <div class="app-navigation__group">
+      <div class="app-navigation__header-group">Product Lifecycle</div>
+      <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item app-navigation__list-item--active">
+    <a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/" class="app-navigation__link">
+      Starting a Project
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/project/lifecycle/change-management/" class="app-navigation__link">
+      Managing Change
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/project/lifecycle/release-planning/" class="app-navigation__link">
+      Planning Releases
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/project/lifecycle/end-of-life/" class="app-navigation__link">
+        Closing a Project
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/project/lifecycle/end-of-life/handover-guidelines" class="app-navigation__link">
+          Handover Guidelines
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+</ul>
+
+    </div>
+    
+  
+  </div>
+</div>
+
+      
+        
+
+<div class="app-navigation__category">
+  <div class="app-navigation__header-category" data-action="click-&gt;app-navigation#toggleGroupMenu">
+    <div class="app-navigation__title-category">
+      
+      <span class="app-navigation__title-text">Development</span>
+    </div>
+    <button type="button" class="app-navigation__toggle-category button-toggle button-toggle--chevron">
+      <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+    </button>
+  </div>
+
+  <div class="app-navigation__menu-category">
+  
+    
+    <div class="app-navigation__group">
+      <div class="app-navigation__header-group">General</div>
+      <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/development/version-control/" class="app-navigation__link">
+        Version Control
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/version-control/repository-management/" class="app-navigation__link">
+          Repository Management
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/version-control/branch-management/" class="app-navigation__link">
+          Branch Management
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/version-control/committing-code/" class="app-navigation__link">
+          Committing Code
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/version-control/release-management/" class="app-navigation__link">
+          Release Management
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/development/code-reviews/" class="app-navigation__link">
+        Code Reviews
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/code-reviews/author-guidelines/" class="app-navigation__link">
+          Guidelines for the author(s)
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/code-reviews/reviewer-guidelines/" class="app-navigation__link">
+          Guidelines for the reviewer(s)
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/code-reviews/automation/" class="app-navigation__link">
+          Automation
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/development/code-conventions/" class="app-navigation__link">
+        Code Conventions
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/code-conventions/css/" class="app-navigation__link">
+          CSS
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <div class="app-navigation__header-sub-list">
+          <a href="https://nimblehq.co/compass/development/code-conventions/elixir/" class="app-navigation__link">
+            Elixir
+          </a>
+          <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSecondSubListMenu">
+            <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+          </button>
+        </div>
+        <ul class="app-navigation__sub-list">
+          
+          <li class="app-navigation__sub-list-item">
+            <a href="https://nimblehq.co/compass/development/code-conventions/elixir/phoenix/" class="app-navigation__link">
+              Phoenix
+            </a>
+          </li>
+          
+          <li class="app-navigation__sub-list-item">
+            <a href="https://nimblehq.co/compass/development/code-conventions/elixir/ex-unit/" class="app-navigation__link">
+              ExUnit
+            </a>
+          </li>
+          
+        </ul>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/code-conventions/flutter/" class="app-navigation__link">
+          Flutter
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/code-conventions/github-actions/" class="app-navigation__link">
+          GitHub Actions
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/code-conventions/golang/" class="app-navigation__link">
+          Go
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/code-conventions/html/" class="app-navigation__link">
+          HTML
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <div class="app-navigation__header-sub-list">
+          <a href="https://nimblehq.co/compass/development/code-conventions/javascript/" class="app-navigation__link">
+            JavaScript
+          </a>
+          <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSecondSubListMenu">
+            <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+          </button>
+        </div>
+        <ul class="app-navigation__sub-list">
+          
+          <li class="app-navigation__sub-list-item">
+            <a href="https://nimblehq.co/compass/development/code-conventions/javascript/cypress/" class="app-navigation__link">
+              Cypress
+            </a>
+          </li>
+          
+          <li class="app-navigation__sub-list-item">
+            <a href="https://nimblehq.co/compass/development/code-conventions/javascript/react/" class="app-navigation__link">
+              React JS
+            </a>
+          </li>
+          
+        </ul>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/code-conventions/kotlin/" class="app-navigation__link">
+          Kotlin
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <div class="app-navigation__header-sub-list">
+          <a href="https://nimblehq.co/compass/development/code-conventions/ruby/" class="app-navigation__link">
+            Ruby
+          </a>
+          <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSecondSubListMenu">
+            <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+          </button>
+        </div>
+        <ul class="app-navigation__sub-list">
+          
+          <li class="app-navigation__sub-list-item">
+            <a href="https://nimblehq.co/compass/development/code-conventions/ruby/ruby-on-rails/" class="app-navigation__link">
+              Ruby on Rails
+            </a>
+          </li>
+          
+          <li class="app-navigation__sub-list-item">
+            <a href="https://nimblehq.co/compass/development/code-conventions/ruby/rspec/" class="app-navigation__link">
+              RSpec
+            </a>
+          </li>
+          
+        </ul>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <div class="app-navigation__header-sub-list">
+          <a href="https://nimblehq.co/compass/development/code-conventions/swift/" class="app-navigation__link">
+            Swift
+          </a>
+          <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSecondSubListMenu">
+            <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+          </button>
+        </div>
+        <ul class="app-navigation__sub-list">
+          
+          <li class="app-navigation__sub-list-item">
+            <a href="https://nimblehq.co/compass/development/code-conventions/swift/quick-nimble/" class="app-navigation__link">
+              Quick &amp; Nimble
+            </a>
+          </li>
+          
+        </ul>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/code-conventions/terraform/" class="app-navigation__link">
+          Terraform
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/development/testing/" class="app-navigation__link">
+      Testing
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/development/localization/" class="app-navigation__link">
+      Localization
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/development/documentation/" class="app-navigation__link">
+        Documentation
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/documentation/api/" class="app-navigation__link">
+          API
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/documentation/github-wiki/" class="app-navigation__link">
+          GitHub Wiki
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/development/git-analytics/" class="app-navigation__link">
+        Git Analytics
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/git-analytics/engineering-lead/" class="app-navigation__link">
+          Engineering Lead
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/git-analytics/squad/" class="app-navigation__link">
+          Squad
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/development/laptop-setup/" class="app-navigation__link">
+      Laptop Setup
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/development/community/" class="app-navigation__link">
+      Community
+    </a>
+  </li>
+  
+  
+</ul>
+
+    </div>
+    
+    <div class="app-navigation__group">
+      <div class="app-navigation__header-group">Platform</div>
+      <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/development/android/" class="app-navigation__link">
+        Android
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <div class="app-navigation__header-sub-list">
+          <a href="https://nimblehq.co/compass/development/android/user-interface/" class="app-navigation__link">
+            User Interface
+          </a>
+          <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSecondSubListMenu">
+            <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+          </button>
+        </div>
+        <ul class="app-navigation__sub-list">
+          
+          <li class="app-navigation__sub-list-item">
+            <a href="https://nimblehq.co/compass/development/android/user-interface/jetpack-compose/" class="app-navigation__link">
+              Jetpack Compose
+            </a>
+          </li>
+          
+        </ul>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/android/project-configurations/" class="app-navigation__link">
+          Project Configurations
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/android/security/" class="app-navigation__link">
+          Security
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/android/testing/" class="app-navigation__link">
+          Testing
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/development/ios/" class="app-navigation__link">
+        iOS
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <div class="app-navigation__header-sub-list">
+          <a href="https://nimblehq.co/compass/development/ios/user-interface/" class="app-navigation__link">
+            User Interface
+          </a>
+          <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSecondSubListMenu">
+            <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+          </button>
+        </div>
+        <ul class="app-navigation__sub-list">
+          
+          <li class="app-navigation__sub-list-item">
+            <a href="https://nimblehq.co/compass/development/ios/user-interface/programmatic-ui/" class="app-navigation__link">
+              Programmatic UI
+            </a>
+          </li>
+          
+        </ul>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/ios/project-configuration/" class="app-navigation__link">
+          Project Configurations
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/ios/build-time-optimization/" class="app-navigation__link">
+          Build Time Optimization
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/ios/security/" class="app-navigation__link">
+          Security
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/ios/testing/" class="app-navigation__link">
+          Testing
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/development/web/" class="app-navigation__link">
+        Web
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/web/user-interface/" class="app-navigation__link">
+          User Interface
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/web/database/" class="app-navigation__link">
+          Database
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/web/api/" class="app-navigation__link">
+          API
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/web/localization/" class="app-navigation__link">
+          Localization
+        </a>
+      </li>
+      
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/development/web/testing/" class="app-navigation__link">
+          Testing
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+</ul>
+
+    </div>
+    
+  
+  </div>
+</div>
+
+      
+        
+
+<div class="app-navigation__category">
+  <div class="app-navigation__header-category" data-action="click-&gt;app-navigation#toggleGroupMenu">
+    <div class="app-navigation__title-category">
+      
+      <span class="app-navigation__title-text">Production</span>
+    </div>
+    <button type="button" class="app-navigation__toggle-category button-toggle button-toggle--chevron">
+      <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+    </button>
+  </div>
+
+  <div class="app-navigation__menu-category">
+  
+    <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/production/hosting/" class="app-navigation__link">
+      Hosting
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/production/deployment/" class="app-navigation__link">
+      Deployment
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/production/domain-management/" class="app-navigation__link">
+      Domain Management
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/production/monitoring/" class="app-navigation__link">
+      Monitoring
+    </a>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/production/postmortem/" class="app-navigation__link">
+      Postmortem
+    </a>
+  </li>
+  
+  
+</ul>
+
+  
+  </div>
+</div>
+
+      
+    </div>
+
+    <div class="app-navigation__container app-navigation__container--bordered">
+      
+        
+          
+
+<div class="app-navigation__category app-navigation__category--secondary">
+  <div class="app-navigation__header-category" data-action="click-&gt;app-navigation#toggleGroupMenu">
+    <div class="app-navigation__title-category">
+      
+        
+<svg class="icon app-navigation__icon-category icon--sm" viewBox="0 0 32 32">
+  <use xlink:href="#icon-team-navigation"></use>
+</svg>
+
+      
+      <span class="app-navigation__title-text">Join The Team</span>
+    </div>
+    <button type="button" class="app-navigation__toggle-category button-toggle button-toggle--chevron">
+      <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+    </button>
+  </div>
+
+  <div class="app-navigation__menu-category">
+  
+    <ul class="app-navigation__list">
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <div class="app-navigation__header-sub-list">
+      <a href="https://nimblehq.co/compass/join/recruitment-process/" class="app-navigation__link">
+        Recruitment Process
+      </a>
+      <button type="button" class="app-navigation__toggle-sub-list button-toggle button-toggle--chevron" data-action="app-navigation#toggleSubListMenu">
+        <svg class="icon button-toggle__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-chevron"></use>
+</svg>
+      </button>
+    </div>
+    <ul class="app-navigation__sub-list">
+      
+      
+      <li class="app-navigation__sub-list-item">
+        <a href="https://nimblehq.co/compass/join/recruitment-process/challenges/" class="app-navigation__link">
+          Challenges
+        </a>
+      </li>
+      
+      
+    </ul>
+  </li>
+  
+  
+  
+  
+  <li class="app-navigation__list-item">
+    <a href="https://nimblehq.co/compass/join/perks/" class="app-navigation__link">
+      Perks
+    </a>
+  </li>
+  
+  
+</ul>
+
+  
+  </div>
+</div>
+
+        
+      
+        
+          <div class="app-navigation__category app-navigation__category--secondary">
+            <div class="app-navigation__link-category">
+              <a href="https://www.notion.so/nimblehq/Help-Center-8df557530439426b88ec69b72745b511" class="app-navigation__title-category">
+                
+                  
+<svg class="icon app-navigation__icon-category icon--sm" viewBox="0 0 32 32">
+  <use xlink:href="#icon-helpdesk"></use>
+</svg>
+
+                
+                <span class="app-navigation__title-text">Helpdesk</span>
+              </a>
+            </div>
+          </div>
+        
+      
+    </div>
+  </div>
+
+  <footer class="app-navigation__footer">
+    <a href="https://nimblehq.co/" class="link-company">
+  <span>nimblehq.co</span>
+  <svg class="icon link-company__icon" viewBox="0 0 32 32">
+  <use xlink:href="#icon-arrow-tail"></use>
+</svg>
+</a>
+
+  </footer>
+</nav>
+
+  </aside>
+
+  <main class="app-container__content">
+    
+      <div class="hero">
+        <h1>Starting a New Project</h1>
+        <img src="./Starting a New Software Project _ Compass by Nimble_files/hero-product.svg" alt="Hero image for Starting a New Project">
+      </div>
+    
+
+    <div class="toc" data-turbo="false">
+      <ul id="toc" class="list-toc">
+<li class="list-toc__item list-toc__h2"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#communication-channels">Communication Channels</a>
+<ul class="list-toc__sub-list">
+<li class="list-toc__item list-toc__h3"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#email-group">Email Group</a></li>
+<li class="list-toc__item list-toc__h3"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#slack-channels">Slack Channels</a></li>
+</ul>
+</li>
+<li class="list-toc__item list-toc__h2"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#scheduling-rituals">Scheduling Rituals</a>
+<ul class="list-toc__sub-list">
+<li class="list-toc__item list-toc__h3"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#sprint-planning">Sprint Planning</a></li>
+<li class="list-toc__item list-toc__h3"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#iteration-review">Iteration Review</a></li>
+</ul>
+</li>
+<li class="list-toc__item list-toc__h2"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#introduction-to-product-tools">Introduction to Product Tools</a></li>
+<li class="list-toc__item list-toc__h2"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#project-exploration">Project Exploration</a></li>
+<li class="list-toc__item list-toc__h2"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#project-brief">Project Brief</a></li>
+<li class="list-toc__item list-toc__h2"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#project-kickoff">Project Kickoff</a></li>
+<li class="list-toc__item list-toc__h2"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#uxui-design">UX/UI Design</a></li>
+<li class="list-toc__item list-toc__h2"><a href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#new-project-checklist">New Project Checklist</a></li>
+</ul>
+    </div>
+
+    <div class="app-content">
+      
+
+<p>While a new project is usually an exciting event, there is always some uncertainty regarding what to do next and how to set things in motion. The following content details each step required to get a new project up and running.</p>
+
+<h2 id="communication-channels">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#communication-channels" aria-hidden="true"><span class="octicon octicon-link"></span></a>Communication Channels</h2>
+
+<p>First things first: how to communicate with the team and with the client?</p>
+
+<p>We rely on two primary communication channels:</p>
+
+<ul>
+  <li>Slack, for live conversation needs,</li>
+  <li>Emails, for the less urgent, asynchronous stuff.</li>
+</ul>
+
+<p>We have an entire section dedicated to how we manage communications at Nimble, and you can learn more by reading our <a href="https://nimblehq.co/compass/team/communication/" target="_blank">communication guidelines</a>.</p>
+
+<p>Back to our new project.</p>
+
+<h3 id="email-group">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#email-group" aria-hidden="true"><span class="octicon octicon-link"></span></a>Email Group</h3>
+
+<p>The dedicated email group is used for creating various accounts required to support a project (e.g., email routing service, CI/CD service, etc.). Additionally, it is also used to send incoming emails to all team members.</p>
+
+<p>Each email group follows the same pattern: <code class="language-plaintext highlighter-rouge">{client-name}@nimblehq.co</code>.</p>
+
+<h3 id="slack-channels">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#slack-channels" aria-hidden="true"><span class="octicon octicon-link"></span></a>Slack Channels</h3>
+
+<p>You can check out our Slack communication guidelines in the communication page.</p>
+
+<p><a href="https://nimblehq.co/compass/team/communication#slack" class="link-bookmark">Slack communication guidelines</a></p>
+
+<div class="message-notice">
+  <p>All client-specific Slack channels are private.</p>
+</div>
+
+<h4 id="shared-slack-channels">Shared Slack Channels</h4>
+
+<p>If the client is also using Slack, our preferred setup is using <a href="https://slack.com/intl/en-th/resources/slack-for-admins/shared-channels-in-slack" rel="external nofollow" target="_blank">Slack’s shared channels</a>. Shared channels have the significant advantage of leaving the users’ management to each party. Nimble can manage their channel members, and the client can manage their own channel members.</p>
+
+<h2 id="scheduling-rituals">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#scheduling-rituals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Scheduling Rituals</h2>
+
+<p>We believe that communication is key to building a successful product. As part of this belief, we follow two of the four <a href="https://www.atlassian.com/agile/scrum/ceremonies" rel="external nofollow" target="_blank">well-known Scrum ceremonies</a>: Sprint Planning and Iteration Review.</p>
+
+<div class="message-notice">
+  <p>We have a company-wide daily stand-up. It is not mentioned in this section because it’s not project-specific and, regardless of assignment, all team members take part in the daily stand-up.</p>
+</div>
+
+<p>We choose not to hold a per-project retrospective for the sake of efficiency (to reduce the number of meetings) and because we have a Chapter Retrospective every two weeks.</p>
+
+<p>For the two ceremonies that we follow, the Product Manager will schedule them both as recurring events when the project starts.</p>
+
+<h3 id="sprint-planning">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#sprint-planning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sprint Planning</h3>
+
+<p><a href="https://nimblehq.co/compass/product/planning/sprint/#sprint-planning" class="link-bookmark">Guide to sprint planning</a></p>
+
+<h3 id="iteration-review">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#iteration-review" aria-hidden="true"><span class="octicon octicon-link"></span></a>Iteration Review</h3>
+
+<p>The iteration review meetings occur once per sprint. They should always happen on the same day of the week as it helps to make it a habit.</p>
+
+<ul>
+  <li>
+<strong>Goals:</strong>
+    <ul>
+      <li>Reviewing the last iteration’s progress</li>
+      <li>Demonstrating the implemented features to the client</li>
+      <li>Aligning the next priorities with the client</li>
+    </ul>
+  </li>
+  <li>
+<strong>Duration:</strong> 1 hour</li>
+  <li>
+<strong>Parties involved:</strong> Client, Product Manager</li>
+</ul>
+
+<div class="message-notice">
+  <p>The sprint planning meeting and the iteration review meeting are often combined into one session only. Going this way will depend on the project and is at the discretion of the Product Manager.</p>
+</div>
+
+<h2 id="introduction-to-product-tools">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#introduction-to-product-tools" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction to Product Tools</h2>
+
+<p>As a product-oriented company, we have a set of tools and workflows that we know work well. While we are always open to using an existing toolset, should the client have a workflow already setup, we prefer working with our proven “<a href="https://nimblehq.co/compass/product/product-stack/">Product Stack</a>”.</p>
+
+<p>Once the product stack has been selected for the new project, the Product Manager needs to introduce all the tools that we will use to the client.</p>
+
+<h2 id="project-exploration">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#project-exploration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project Exploration</h2>
+
+<p>The project exploration phase is one of the most, if not <em>the</em> most, crucial stages in the project. The client and the Product Manager will play a ping-pong game, exchanging loads of questions and answers.</p>
+
+<p>The client may have a clear idea in mind for their product. However, there are two main challenges that we usually face:</p>
+
+<ol>
+  <li>Extracting information from someone’s mind is hard. Thoughts aren’t always easy to communicate with others. Especially if those thoughts aren’t crystal clear, which is often the case.</li>
+  <li>Clients usually have a good idea of how they want to build their product, but they rarely have an accurate picture of how it will work.</li>
+</ol>
+
+<p>The Product Manager’s responsibility is to get an equal, if not better, understanding of the product than the client. The Product Manager must push the client to explore the limits of their product idea. Of course, this is not to be mean, but rather to make sure that we have the most comprehensive understanding of their product intentions.</p>
+
+<p>There is only one way to achieve those goals: <strong>question everything.</strong></p>
+
+<p>The famous phrase <a href="https://en.wikipedia.org/wiki/No_such_thing_as_a_stupid_question" rel="external nofollow" target="_blank">“There is no such thing as a stupid question”</a> has never been more true. As a Product Manager, don’t be afraid to ask a question that others might find dumb. It often leads to identifying edge cases and shortcomings in the logic.</p>
+
+<p>This process will require several emails and meetings. It is typical for all projects and <strong>it is paramount to do it right.</strong> A proper project exploration will lead to a successful implementation and a healthy relationship with the client.</p>
+
+<h2 id="project-brief">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#project-brief" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project Brief</h2>
+
+<p>The project brief comes after project exploration. It represents the newfound understanding of the product, its target users, demographics, competitors landscape, and anything that will help either design or develop the product.</p>
+
+<p>A good project brief must be structured and written with clear and correct English. The project brief will end up in many different people’s hands, and they all need to understand it easily.</p>
+
+<p>The brief doesn’t have to be solely structured text, though. You should use and abuse diagrams, mockups, links to documentation, etc. Anything that can help visualize the product will make the brief better.</p>
+
+<h2 id="project-kickoff">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#project-kickoff" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project Kickoff</h2>
+
+<p>After the project exploration has been completed and the project brief has been written up, the project kickoff will officialize the execution work.</p>
+
+<p>The project kickoff is only a formality and a way for everyone involved to have a clear “go ahead.”</p>
+
+<p>The Product Manager should organize the kickoff meeting, and all team members and stakeholders should be invited: designers, developers, and client.</p>
+
+<ul>
+  <li>
+<strong>Goals:</strong>
+    <ul>
+      <li>Introduce the team to the client</li>
+      <li>Summarize the product and the product goals</li>
+      <li>Clarify the roles and the expectations of each party</li>
+      <li>Signal to the designers and developers that they are starting their full-time assignment on the project</li>
+    </ul>
+  </li>
+  <li>
+<strong>Duration:</strong> 1 hour</li>
+  <li>
+<strong>Parties involved:</strong> client, designer(s), developers, product manager</li>
+</ul>
+
+<h2 id="uxui-design">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#uxui-design" aria-hidden="true"><span class="octicon octicon-link"></span></a>UX/UI Design</h2>
+
+<p>The UX/UI design phase is where things start to take shape. It is where any new project will start. The development phase can only start <em>after</em> the UX/UI has been done and approved by the client.</p>
+
+<p>While it is not impossible to start development in parallel with the UX/UI design, it often leads to reworking the product codebase as designs tend to change frequently in the early days. It is counter-productive and creates delays from the beginning of the project. Therefore, it is strongly encouraged to start development only when UX/UI is done.</p>
+
+<p>If the timeline dictates an early start of the development, the design process should be at least mid-way through. The development process should always start with the setup chores: project setup, application variants (staging, production), monitoring, CI/CD, etc.</p>
+
+<div class="message-notice">
+  <p>Regarding the actual design process, we have a complete <a href="https://nimblehq.co/compass/design/process/" target="_blank">design process documentation</a> that you can consult.</p>
+</div>
+
+<h2 id="new-project-checklist">
+<a class="anchor" href="https://nimblehq.co/compass/project/lifecycle/starting-new-project/#new-project-checklist" aria-hidden="true"><span class="octicon octicon-link"></span></a>New Project Checklist</h2>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gs">**New Project Checklist**</span>
+<span class="p">
+-</span> [ ] Create the group email
+<span class="p">-</span> [ ] Create the Slack channels
+<span class="p">-</span> [ ] Schedule the recurring sprint planning
+<span class="p">-</span> [ ] Schedule the recurring iteration review
+<span class="p">-</span> [ ] Introduce the Product Stack to the client
+<span class="p">-</span> [ ] Project exploration
+<span class="p">-</span> [ ] Write project brief
+<span class="p">-</span> [ ] Kickoff meeting
+</code></pre></div></div>
+
+
+    </div>
+
+    <footer class="app-footer">
+  
+  <div class="app-footer__cta">
+    <div class="app-footer__cta-text">
+      <h3 class="app-footer__heading">Interested to join the team?</h3>
+      <p class="app-footer__subheading">Learn more about our recruitment process and open positions.</p>
+    </div>
+    <div class="app-footer__cta-action">
+      <a target="_blank" href="https://jobs.nimblehq.co/?source=compass" class="button button--primary">See open positions</a>
+    </div>
+  </div>
+  
+
+  <div class="app-footer__impressum">
+    <div class="app-footer__link-container">
+      <ul class="app-footer__list-link list--unstyled">
+        
+        <li class="app-footer__list-item">
+          <a href="https://nimblehq.co/" class="app-footer__link">nimblehq.co</a>
+        </li>
+        
+        <li class="app-footer__list-item">
+          <a href="https://nimblehq.co/services/" class="app-footer__link">Our Services</a>
+        </li>
+        
+        <li class="app-footer__list-item">
+          <a href="https://nimblehq.co/blog/" class="app-footer__link">Blog</a>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="app-footer__copyright">
+      © 2023 Nimble
+    </div>
+  </div>
+</footer>
+
+  </main>
+</div>
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
